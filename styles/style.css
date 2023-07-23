@@ -434,6 +434,7 @@ body {
     overflow: hidden;
     position: relative;
     margin: 50px auto;
+    border-radius: 10px;
   }
   
   .slide {
