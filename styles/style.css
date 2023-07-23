@@ -1,8 +1,8 @@
 body {
-    background-color: #000000;
 }
 
 main {
+    background: linear-gradient(#0b0527, #15015c); 
     width: 100%;
     padding: 10px;
 }
@@ -13,6 +13,7 @@ header {
     background: linear-gradient(#ea8d8d, #2f00d7); 
     padding: 20px;
     color: #fff; 
+
 }
 
 .content {
@@ -288,16 +289,16 @@ body {
     display: grid;
     grid-template-columns: repeat(5, 1fr); /* Três colunas igualmente espaçadas */
     gap: 1px; /* Espaçamento entre as fotos */
-    max-width: 1400px; /* Largura máxima da grade */
+    max-width: 1500px; /* Largura máxima da grade */
     margin: 0 auto; /* Centraliza a grade horizontalmente */
-    padding: 20px; /* Espaçamento ao redor da grade */
+    padding: 0px; /* Espaçamento ao redor da grade */
 }
   
   /* Estilos para as imagens dentro da grade */
   .photo-grid img {
-    width: 80%; /* Ajusta a largura da imagem para ocupar o espaço da coluna */
+    width: 100%; /* Ajusta a largura da imagem para ocupar o espaço da coluna */
     height: auto; /* Mantém a proporção original da imagem */
-    border-radius: 10px; /* Bordas arredondadas */
+    border-radius: 15px; /* Bordas arredondadas */
     transition: transform 0.3s ease-in-out;
   }
 
@@ -365,8 +366,9 @@ body {
 
 
   h1 {
-    font-family: monospace;
-    border-top:5px solid #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border-top:none;
     /* background: linear-gradient(to right, #2f00d7, #2f00d7); */
     /*background-image: url('icons/images.jpeg');*/
     background-size: cover; 
@@ -384,7 +386,7 @@ body {
     overflow: hidden;
     box-sizing: border-box;
     margin: 10px 10px;
-    border: 1px solid #000000;
+    border:none;
     border-radius: 5px;
     padding: 0px 0px;
     box-sizing: border-box; 
