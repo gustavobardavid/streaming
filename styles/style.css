@@ -12,13 +12,12 @@ header {
     /* background: linear-gradient(to right, #0E1219, #05003d); */
     background: linear-gradient(#ea8d8d, #2f00d7); 
     padding: 20px;
-    color: #fff;
-    
+    color: #fff; 
 }
 
 .content {
     display: flex;
-    width: 80%;
+    width: 100%;
 }
 
 .logo a {
@@ -367,7 +366,7 @@ body {
 
   h1 {
     font-family: monospace;
-    border-top:5px solid #2f00d7;
+    border-top:5px solid #000000;
     /* background: linear-gradient(to right, #2f00d7, #2f00d7); */
     /*background-image: url('icons/images.jpeg');*/
     background-size: cover; 
@@ -398,9 +397,8 @@ body {
     top: 100px;
     left: 1px;
     width: 100%;
-    background: transparent;
-     background: linear-gradient(#000000, #000000);
-    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #000000;
     padding: 0px;
     transform: translateY(110%);
     transition: transform 0.6s ease-in-out;
