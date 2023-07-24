@@ -13,7 +13,6 @@ header {
     background: linear-gradient(#ea8d8d, #2f00d7); 
     padding: 20px;
     color: #fff; 
-
 }
 
 .content {
@@ -403,7 +402,7 @@ body {
     color: #ffffff;
     padding: 0px;
     transform: translateY(110%);
-    transition: transform 0.6s ease-in-out;
+    transition: transform 0.5s ease-in-out;
     text-align: center;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
