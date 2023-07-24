@@ -448,18 +448,18 @@ body {
   }
   
   .slide1 {
-    background-image: url(./assets/covers/hogwarts.png);
+    background-image: url(assets/covers/hogwarts.png);
     animation-delay: 0s;
 
   }
   
   .slide2 {
-    background-image: url(./assets/covers/thelast.jpg);
+    background-image: url(assets/covers/thelast.jpg);
     animation-delay: 5s;
   }
   
   .slide3 {
-    background-image: url(./assets/covers/bigbang.jpg);
+    background-image: url(assets/covers/bigbang.jpg);
     animation-delay: 10s;
   }
   
