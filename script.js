@@ -3,4 +3,5 @@ window.addEventListener("load" , () => {
     botao.addEventListener('click' , () => {
         let input = document.querySelector('#input-buscar');
     })
+    
 })
