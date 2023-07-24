@@ -37,11 +37,11 @@ header {
 } */
 
 .buscar {
-    width: 30%;
+    width: 40%;
 }
 
 .buscar input {
-    width: 100%;
+    width: 69%;
     position: relative;
     flex: 1;
     padding: 5px;
@@ -50,28 +50,28 @@ header {
     outline: none;
     font-size: 1rem;
     font-weight: 600;
-    visibility: hidden;
+    /* visibility: hidden; */
     
 }
 
 
 .buscar button {
     background-color: #0059ff;
-    height:40px;
-    width: 30%;
+    height:33px;
+    width: 20%;
     border: none;
     border-radius: 4px;
     color:#ffffff;
-    font-size: large;
+    font-size: medium;
     align-items: center;
     font-weight: 400;
     cursor: pointer;
 }
 
 
-.buscar:hover input {
+/* .buscar:hover input {
     visibility: visible;
-}
+} */
 
 .buscar span {
     font-size: larger;
@@ -86,6 +86,7 @@ header {
     display: flexbox;
     justify-content: end;
     text-align: end;
+    cursor: pointer;
     
 }
 
@@ -448,18 +449,18 @@ body {
   }
   
   .slide1 {
-    background-image: url(./assets/covers/hogwarts.png);
+    background-image: url(/assets/covers/hogwarts.png);
     animation-delay: 0s;
 
   }
   
   .slide2 {
-    background-image: url(./assets/covers/thelast.jpg);
+    background-image: url(/assets/covers/thelast.jpg);
     animation-delay: 5s;
   }
   
   .slide3 {
-    background-image: url(./assets/covers/bigbang.jpg);
+    background-image: url(/assets/covers/bigbang.jpg);
     animation-delay: 10s;
   }
   
